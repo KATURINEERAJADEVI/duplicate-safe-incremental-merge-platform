@@ -1,0 +1,9 @@
+{
+  "name": "duplicate-safe-backend",
+  "version": "1.0.0",
+  "description": "FastAPI backend for Duplicate-Safe Incremental Merge Platform",
+  "scripts": {
+    "dev": "\"C:\\Users\\Akkhash\\anaconda3\\python.exe\" -m uvicorn backend.app.main:app --app-dir .. --host 0.0.0.0 --port 8000 --reload",
+    "start": "\"C:\\Users\\Akkhash\\anaconda3\\python.exe\" -m uvicorn backend.app.main:app --app-dir .. --host 0.0.0.0 --port 8000"
+  }
+}

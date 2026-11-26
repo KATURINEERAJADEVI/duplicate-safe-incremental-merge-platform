@@ -1,0 +1,29 @@
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local databases
+*.db
+
+# Editor settings
+.vscode/
+Dataset_A_Base_12k.csv
+Dataset_B_Incremental_6k.csv
+
+# Exclude generated runtime data
+/backend/app/data/
+/backend/backend/
